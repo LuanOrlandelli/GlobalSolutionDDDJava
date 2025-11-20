@@ -159,7 +159,7 @@ Senha: *(em branco)*
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
  ### Desenvolvido por: 
  - Luan Orlandelli Ramos - 554747
