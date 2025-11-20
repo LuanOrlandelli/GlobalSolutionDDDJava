@@ -159,6 +159,12 @@ Senha: *(em branco)*
 
 ---
 
+
+## 🎥 Vídeo Testando a API com o Postman (Collection disponibilizada no repostório)
+- https://drive.google.com/file/d/1hK8DTMp-f2QjfNxXiyvmeVdsFIjFIavp/view?usp=sharing
+
+---
+
 ## 👨‍💻 Autores
 
  ### Desenvolvido por: 
