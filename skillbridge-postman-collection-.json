@@ -1,0 +1,260 @@
+{
+  "info": {
+    "name": "SkillBridge API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET - Listar usuários",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/usuarios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "usuarios"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST - Criar usuário",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nome\": \"Novo Usu\\u00e1rio\",\n    \"email\": \"novo@email.com\",\n    \"areaAtuacao\": \"Tecnologia\",\n    \"nivelCarreira\": \"Pleno\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/usuarios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "usuarios"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET - Buscar usuário por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/usuarios/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "usuarios",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT - Atualizar usuário por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nome\": \"Usu\\u00e1rio Atualizado\",\n    \"email\": \"atualizado@email.com\",\n    \"areaAtuacao\": \"Dados\",\n    \"nivelCarreira\": \"S\\u00eanior\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/usuarios/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "usuarios",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE - Excluir usuário por ID",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/usuarios/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "usuarios",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET - Listar trilhas",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/trilhas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "trilhas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST - Criar trilha",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nome\": \"Trilha de IA\",\n    \"descricao\": \"Aprendizado sobre Intelig\\u00eancia Artificial\",\n    \"nivel\": \"INICIANTE\",\n    \"cargaHoraria\": 40,\n    \"focoPrincipal\": \"Intelig\\u00eancia Artificial\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/trilhas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "trilhas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET - Buscar trilha por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/trilhas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "trilhas",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT - Atualizar trilha por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nome\": \"Trilha Atualizada\",\n    \"descricao\": \"Conte\\u00fado atualizado de IA\",\n    \"nivel\": \"INTERMEDIARIO\",\n    \"cargaHoraria\": 45,\n    \"focoPrincipal\": \"Machine Learning\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/trilhas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "trilhas",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE - Excluir trilha por ID",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/trilhas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "trilhas",
+            "1"
+          ]
+        }
+      }
+    }
+  ]
+}
