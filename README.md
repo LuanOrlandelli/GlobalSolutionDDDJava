@@ -4,7 +4,7 @@ API RESTful desenvolvida para promover **Upskilling e Reskilling** de profission
 
 ---
 
-## ✅ README, Execução e Boas Práticas (10 pts)
+## ✅ README, Execução e Boas Práticas
 
 Este documento contém as instruções necessárias para compreender, executar e testar a API `SkillBridge`, além de evidenciar boas práticas utilizadas no projeto.
 
