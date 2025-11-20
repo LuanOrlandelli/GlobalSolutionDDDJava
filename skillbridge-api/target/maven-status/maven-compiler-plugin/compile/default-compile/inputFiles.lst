@@ -1,0 +1,16 @@
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\service\TrilhaService.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\dto\UsuarioDTO.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\repository\UsuarioRepository.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\model\Trilha.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\controller\UsuarioController.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\repository\TrilhaRepository.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\model\Usuario.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\dto\TrilhaDTO.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\exception\UsuarioNotFoundException.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\exception\ApiExceptionHandler.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\SkillbridgeApplication.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\exception\TrilhaNotFoundException.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\exception\ApiError.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\exception\EmailAlreadyUsedException.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\service\UsuarioService.java
+C:\Users\luano\Downloads\skillbridge-api\src\main\java\com\skillbridge\controller\TrilhaController.java
